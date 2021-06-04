@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*--navbar--*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:radial-gradient(rgba(248, 222, 222, 0.424),#d3fcff71);
+    
+    
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 5px;  
+    position: relative;
+    margin-top: 20px; 
+    background: radial-gradient(rgb(255, 246, 246),#096c79); 
+      
+     
+}
+ h2{
+    font-size:40px;
+    text-align: center;
+    color: rgba(247, 251, 251, 0.876);
+    font-family:'OCR-A BT';
+    background:#096c79;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius:150px ;
+    padding: 5px;
+    border-top-style: double;
+    margin-left: 150px;
+    margin-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px 0 rgb(29, 29, 29);
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    overflow: hidden;
+}
+.navbar img{
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:rgba(31, 30, 30, 0.945);
+}
+p{
+    color: rgba(56, 56, 54, 0.959);
+}
+
+/*----Login Page----*/
+
+
+.container{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    max-width: 1350px;    
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 400px;
+    
+}
+.col-2 img{
+    max-width: 90%;
+    padding: 5px 0;
+    }
+
+.btn{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 8px 30px;
+    margin: 30px 0;
+    background-color: rgba(90, 86, 86, 0.918);
+    color: cornsilk;
+    transition: background 0.5s;
+    word-spacing: 5px;
+}
+.btn:hover{
+    background: chocolate;
+}
+
+
+
+/*---footer----*/
+
+.footer{
+    background: #000;
+    color: cornsilk;
+    padding: 60px 0 20px;
+    font-size: 14px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex:1;
+    text-align:center ;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    font-weight: normal;
+}
+.app-logo{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.app-logo img{
+    width: 140px;
+    
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright {
+    text-align:right;
+}
+.menubtn{
+    width: 28px;
+    margin-left: 50px;
+    display: none;
+    cursor: pointer;
+}
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+
+
+/*------account page-------*/
+
+.account-page{
+    padding: 10px ;
+    background: radial-gradient(rgb(240, 217, 217),#096c79);
+    margin:5px ;
+}
+.form-container{
+    background: transparent #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 3px;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 2, 2, 0.1);
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: rgba(255, 234, 234, 0.856);
+    cursor: pointer;
+    width: 250px;
+   
+    
+}
+.form-btn{
+    display:inline-block;
+    
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+        
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn:focus{
+    outline: none;
+}
+#Loginform{
+    left: -300px;
+}
+#Regform{
+    left: 0px;
+}
+form a{
+    font-size: 12px;
+}
+#Indicator{
+    width: 90px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(160px);
+}
+
+ 
+
+
+
+
+/*---media query for menu------*/
+
+@media only screen and (max-width: 650px){
+    nav ul{
+        position: absolute;
+        top: 120px;
+        left: 0; 
+        right: 0;       
+        width: 100%;
+        overflow: hidden;
+        transition: max-height .5s;
+        background:#8a8a8a ;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    h2{
+        font-size:15px;
+        text-align: center;
+        color: rgba(247, 251, 251, 0.876);
+        font-family:'Berlin Sans FB Demi';
+        background: radial-gradient(rgb(15, 8, 8),#096c79);
+        border-bottom-left-radius: 150px;
+        border-bottom-right-radius:150px ;
+        padding: 5px;
+        border-top-style: double;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        box-shadow: 0 0 10px 0 rgb(29, 29, 29);
+        
+    }
+    .menubtn{
+        display: block;
+    }
+    .copyright {
+        text-align:center;
+    }
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-4{
+        flex-basis: 100%;
+        margin: 2px;
+        
+    }
+    .col-2 img{
+        max-width: 80%;
+        padding: 0px ;
+        margin-right: 90px;
+        
+    }
+    .form-container{
+        background: transparent #fff;
+        width: 300px;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        padding: 5px;
+        border-radius: 3px;
+        margin: 2px;
+        box-shadow: 0 0 20px 0 rgba(0, 2, 2, 0.1);
+    
+    }
+}
+
+
+/*-------media query for 600px-------*/
+@media only screen and (max-width: 350px){
+    .row{
+        text-align: center;
+    }
+    .col-2 h1{
+        font: size 30px;
+    }
+    .col-2,  .col-4{
+        flex-basis: 100%;
+                
+     }
+     .copyright {
+        text-align:center;
+    }
+        
+}

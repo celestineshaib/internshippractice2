@@ -1,0 +1,132 @@
+
+
+.menu-bar{
+    background: #023c44e0;
+    text-align: center;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 150px;
+    box-shadow: 0 0 10px 0 rgb(29, 29, 29);
+       
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffff;
+    overflow: hidden;
+    
+}
+.menu-bar ul li{
+    width: 180px;
+    margin: 7px;
+    padding: 5px;     
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.active, .menu-bar ul li:hover{
+    background: #025f6bd7;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 5px;
+
+}
+.sub-menu-1{
+    display: none;
+    font-size: 12px;
+    
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgba(6, 79, 97, 0.787);
+    margin-top: 6px;
+    margin-left: 0px;
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 5px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: justify;
+    border-radius: 0;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:#fafafa;
+}
+.fa-angel-right{
+    float: right; 
+}
+
+
+
+.small-container{
+    max-width: 1080px;
+    margin-left: 160px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 0 0 10px 0 rgb(29, 29, 29);
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 30px;
+    min-width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius:60px;
+    box-shadow: 0 0 10px 0 rgb(29, 29, 29);
+    background: #0d363b;
+    color: #fff;   
+    
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+.col-4 h4{
+    color: rgb(226, 193, 193);
+}
+
+        
+    
+h6{color:rgb(15, 37, 34);
+    fonT-size: 15px; 
+    font-family:'Square721 BT'; 
+                     
+}
+
+tr{padding: 3px; 
+    background: radial-gradient(rgb(255, 246, 246),#096c7963);          
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: aliceblue;
+    background: #ff523b;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+        
+    
